@@ -2,3 +2,34 @@ baseURL = "https://jun-robot.netlify.com/"
 title = "ロボット製作日記"
 languageCode = "ja"
 theme = "robust"
+
+
+
+hasCJKLanguage = true # 省略を適切な長さに。
+
+pygmentsCodefences = true # シンタックスハイライト ここ参考↓
+pygmentsUseClasses = true # https://tech-babysteps.net/hugo-syntax-highlighting/
+
+
+[params]
+    dateformat = "2006-01-02"
+    copyrightYear = "2022 Jun-robot　　"
+    description = "趣味でロボットを作ってる普通科高校生"
+
+
+[params.posts]
+    show_thumb_post = true # 記事冒頭にサムネイルを表示させるか
+    toc = false # 目次作成
+
+[params.author]
+    thumbnail = "/images/author.jpg"
+    name = "<a href ='/about/'>Jun</a>"
+    description = "<p>ロボカッパー。<br>ハードからソフトまで広く浅くやってます。</p>"
+    # facebook = ""
+    twitter = "https://twitter.com/jun_robot"
+    github = "https://github.com/Jun-robot"
+    # mail = "https://docs.google.com/forms/d/e/1FAIpQLScFcxHgR4OGrRD21ognPF9CHcQdecmvfJyMdkptrR2IiXkvCQ/viewform?usp=sf_link"
+
+[taxonomies]
+  tag = "tags"
+  categorie = "categories"
