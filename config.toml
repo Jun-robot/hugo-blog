@@ -13,7 +13,7 @@ pygmentsUseClasses = true # https://tech-babysteps.net/hugo-syntax-highlighting/
 
 [params]
     dateformat = "2006-01-02"
-    copyrightYear = "2022 Jun-robot　　"
+    copyrightYear = "2022 Jun-robot　"
     description = "趣味でロボットを作ってる普通科高校生"
 
 
@@ -24,7 +24,7 @@ pygmentsUseClasses = true # https://tech-babysteps.net/hugo-syntax-highlighting/
 [params.author]
     thumbnail = "/images/author.jpg"
     name = "<a href ='/about/'>Jun</a>"
-    description = "<p>ロボカッパー。<br>ハードからソフトまで広く浅くやってます。</p>"
+    description = "<p>高校生ロボカッパー。<br>ハードからソフトまで広く浅くやってます。</p>"
     # facebook = ""
     twitter = "https://twitter.com/jun_robot"
     github = "https://github.com/Jun-robot"

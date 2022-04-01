@@ -6,16 +6,17 @@ thumbnail : "/images/thumbnails/Plojects.jpg"
 description : ""
 ---
 
-これまでやってきたプロジェクトを紹介
+これまでやってきた＆進行中のプロジェクトを紹介
 
-## 経歴
+## RCJSoccer(All_outlook)
 
-a
+2021/04~
 
-## スキル
+## RCJOnStage(Forest)
 
-b
+2018/05~2020/02
 
-## 成果
+## リレーで作る半加算器
 
-c
+2020/06~2020/09
+全日本学生児童発明工夫展
