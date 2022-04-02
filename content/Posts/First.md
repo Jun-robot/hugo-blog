@@ -8,6 +8,7 @@ thumbnail : ""
 description : ""
 tags : ["Hugo"]
 archives : ["2022/04"]
+image : "/images/thumbnails/Plofile.png"
 ---
 
 HugoとNetlifyを使って始めました。
