@@ -17,6 +17,10 @@ googleAnalytics = "G-D0TKMHP045" # Optional
     copyrightYear = "2022 Jun-robot　"
     description = "趣味でロボットを作ってる普通科高校生"
 
+    twitterID = "@jun_robot"
+    description = "個人ブログです！"
+    images = ["/images/default.jpg"]
+
 
 [params.posts]
     show_thumb_post = true # 記事冒頭にサムネイルを表示させるか
