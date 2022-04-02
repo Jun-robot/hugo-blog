@@ -10,6 +10,7 @@ hasCJKLanguage = true # 省略を適切な長さに。
 pygmentsCodefences = true # シンタックスハイライト ここ参考↓
 pygmentsUseClasses = true # https://tech-babysteps.net/hugo-syntax-highlighting/
 
+googleAnalytics = "G-D0TKMHP045" # Optional
 
 [params]
     dateformat = "2006-01-02"
