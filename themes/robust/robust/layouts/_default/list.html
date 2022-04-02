@@ -9,7 +9,11 @@
 
 <div class="articles">
   <div class="mrow">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+
+    <!-- {{ $pctx := . }}
+    {{ if .IsHome }}{{ $pctx = .Site }}{{ end }}
+    {{ $paginator := .Paginate $pctx.RegularPages }} -->
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
     {{ range $paginator.Pages }}
     <div class="mcol c6">
       <article class="li">

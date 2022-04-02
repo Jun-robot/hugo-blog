@@ -23,12 +23,6 @@
       <li><a href="{{ . }}" rel="noopener nofollow" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
       {{ end }}
 
-      {{ with .mail }}
-        <li><a href="{{ . }}" rel="noopener nofollow" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
-      {{ end }}
-
-      
-
     </ul>
 
     <div class="author-description">{{ .description | safeHTML }}</div>

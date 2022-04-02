@@ -27,6 +27,10 @@
         <li><a href="{{ . }}" rel="nofollow" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
         {{ end }}
 
+      {{ with .instagram }}
+        <li><a href="{{ . }}" rel="nofollow" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+        {{ end }}
+
     </ul>
 
     <div class="author-description">{{ .description | safeHTML }}</div>

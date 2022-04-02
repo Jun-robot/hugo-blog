@@ -15,9 +15,9 @@
 
             
             <!-- セクション（ディレクトリ） -->
-            <!-- {{ with .Section }}
+            {{ with .Section }}
                 <li><i class="fas fa-bookmark" aria-hidden="true"></i><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/">{{ . | upper }}</a></li>
-            {{ end }} -->
+            {{ end }}
 
             {{ if eq (getenv "HUGO_ENV") "DEV" }}
                 <li>{{ .WordCount }} Words</li>
@@ -66,9 +66,9 @@
             <br>
 
             <!-- カテゴリ -->
-            <!-- {{ with .Section }}
+            {{ with .Section }}
             <li><i class="fas fa-bookmark" aria-hidden="true"></i><a href="{{ $.Site.BaseURL }}{{ . | urlize }}/">{{ . | upper }}</a></li>
-            {{ end }} -->
+            {{ end }}
 
             <!-- タグ -->
             {{ range .Params.tags }}

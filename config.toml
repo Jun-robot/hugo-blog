@@ -24,12 +24,14 @@ googleAnalytics = "G-D0TKMHP045" # Optional
 
 [params.author]
     thumbnail = "/images/author.jpg"
-    name = "<a href ='/plofile/'>Jun</a>"
+    name = "<a href ='/pages/plofile'>Jun</a>"
     description = "<p>高校生ロボカッパー。<br>ハードからソフトまで広く浅くやってます。</p>"
     # facebook = ""
     twitter = "https://twitter.com/jun_robot"
     github = "https://github.com/Jun-robot"
+    instagram = "https://www.instagram.com/jun.rcj/?hl=ja"
     # mail = "https://docs.google.com/forms/d/e/1FAIpQLScFcxHgR4OGrRD21ognPF9CHcQdecmvfJyMdkptrR2IiXkvCQ/viewform?usp=sf_link"
+     
 
 [taxonomies]
   tag = "tags"
