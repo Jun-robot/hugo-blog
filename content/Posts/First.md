@@ -4,7 +4,7 @@ date: 2022-04-01T19:24:42+09:00
 draft: false
 lastmod : "2022-04-01"
 slug : "StartBlog"
-thumbnail : ""
+thumbnail : "/images/default.jpg"
 description : ""
 tags : ["Hugo"]
 archives : ["2022/04"]
