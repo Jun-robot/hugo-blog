@@ -49,9 +49,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ .Site.Params.twitterName }}" />
 
-
-
-
         <!-- Google Analysis (gtag.js版) -->
         {{ if not .Site.IsServer }}
         {{ if and .Site.GoogleAnalytics (ne (getenv "HUGO_ENV") "DEV") }}
