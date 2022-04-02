@@ -21,9 +21,9 @@ googleAnalytics = "G-D0TKMHP045" # Optional
     # description = "個人ブログです！"
     # images = ["/images/default.jpg"]
     
-    description = "Text about my cool site"
-    images = ["default.jpg"]
-    title = "My cool site"
+    # description = "Text about my cool site"
+    # images = ["default.jpg"]
+    # title = "My cool site"
 
 
 

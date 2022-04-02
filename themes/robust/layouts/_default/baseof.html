@@ -37,9 +37,6 @@
             {{ partial "custom.css" . | safeCSS }}
         </style>
 
-        {{ template "_internal/opengraph.html" . }}
-        {{ template "_internal/twitter_cards.html" . }}
-
         <!-- Google Analysis (gtag.js版) -->
         {{ if not .Site.IsServer }}
         {{ if and .Site.GoogleAnalytics (ne (getenv "HUGO_ENV") "DEV") }}
