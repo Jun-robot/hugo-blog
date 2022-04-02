@@ -22,7 +22,7 @@ googleAnalytics = "G-D0TKMHP045" # Optional
     # images = ["/images/default.jpg"]
     
     description = "Text about my cool site"
-    images = ["/images/author.jpg"]
+    images = ["default.jpg"]
     title = "My cool site"
 
 
