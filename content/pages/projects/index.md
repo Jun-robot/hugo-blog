@@ -1,8 +1,8 @@
 ---
-title: "Plojects"
+title: "Projects"
 date: 2022-04-01
-slug : "Plojects"
-thumbnail : "/images/thumbnails/Plojects.jpg"
+slug : "Projects"
+thumbnail : "/images/thumbnails/Projects.jpg"
 description : ""
 ---
 

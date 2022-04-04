@@ -1,8 +1,8 @@
 ---
-title: "Plofile"
+title: Profile
 date: 2022-04-01
-slug : "Plofile"
-thumbnail : "/images/thumbnails/Plofile.png"
+slug : "Profile"
+thumbnail : "/images/thumbnails/Profile.png"
 description : ""
 ---
 
