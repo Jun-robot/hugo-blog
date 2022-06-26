@@ -1,5 +1,5 @@
 baseURL = "https://jun-robot.netlify.com/"
-title = "ロボット製作日記"
+title = "Junのロボット日記"
 languageCode = "ja"
 theme = "robust"
 
@@ -15,7 +15,7 @@ googleAnalytics = "G-D0TKMHP045" # Optional
 [params]
     dateformat = "2006-01-02"
     copyrightYear = "2022 Jun-robot　"
-    description = "ロボット好きの高校生の製作記録"
+    description = "ロボット好き高校生の開発記録"
 
     # twitterID = "@jun_robot"
     # description = "個人ブログです！"

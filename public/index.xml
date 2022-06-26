@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ロボット製作日記</title>
+    <link>https://jun-robot.netlify.com/</link>
+    <description>Recent content on ロボット製作日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 03 Apr 2022 01:24:42 +0900</lastBuildDate><atom:link href="https://jun-robot.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ブログ始めました。</title>
+      <link>https://jun-robot.netlify.com/posts/startblog/</link>
+      <pubDate>Sun, 03 Apr 2022 01:24:42 +0900</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/posts/startblog/</guid>
+      <description>HugoとNetlifyを使って始めました。 ちなみにテーマはRobustです。 日本語の改造情報が多くていろいろできました。 LATESTSとH</description>
+    </item>
+    
+    <item>
+      <title>Profile</title>
+      <link>https://jun-robot.netlify.com/pages/profile/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/pages/profile/</guid>
+      <description>このページを開いてくれてありがとうございます！！ ロボット好きの高校生Junです。 家にいる時間はほとんどロボット関連のことをしています。たまに</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jun-robot.netlify.com/pages/projects/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/pages/projects/</guid>
+      <description>これまでやってきた＆進行中のプロジェクトを紹介 RCJSoccerLightweight(All_outlook) 2021/04~ リレーで作る半加算器 2020/06~2020/09 全日本学生児童発明工夫展に向けて製作しました。 RCJOnStageワ</description>
+    </item>
+    
+  </channel>
+</rss>

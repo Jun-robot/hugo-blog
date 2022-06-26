@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jun-robot.netlify.com/tags/hugo/</loc>
+    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/</loc>
+    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/tags/</loc>
+    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/startblog/</loc>
+    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/</loc>
+    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/pages/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/pages/profile/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/pages/projects/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/categories/</loc>
+  </url>
+</urlset>
