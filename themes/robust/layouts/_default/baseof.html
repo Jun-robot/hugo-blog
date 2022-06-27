@@ -50,7 +50,7 @@
 <meta name="twitter:site" content="@{{ .Site.Params.twitterName }}" /> -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@jun_robot" />
-<meta name="twitter:title" content="{{ .Site.Title }}"/>
+<meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:description" content="{{ with .Description -}}{{ . }}{{ else -}}{{ if .IsPage }}{{ substr .Summary 0 300 }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta name="twitter:image" content="{{ if .Params.thumbnail -}}{{ .Params.thumbnail|absURL }}{{ else if hasPrefix .File.Path "post" -}}{{ path.Join "tcard" (print .File.BaseFileName ".png") | absURL }}{{ else -}}{{ "img/default.png" | absURL }}{{ end -}}" />
