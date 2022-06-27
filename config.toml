@@ -33,9 +33,9 @@ googleAnalytics = "G-D0TKMHP045" # Optional
 
 [params.author]
     thumbnail = "/images/author.jpg"
-    name = "<a href ='/pages/plofile'>Jun</a>"
+    name = "<a href ='/pages/profile'>Jun</a>"
     description = "<p>千葉県に住んでいる高校生ロボカッパー。<br>ハードからソフトまで広く浅くやってます。</p>"
-    # facebook = ""
+    facebook = "https://www.facebook.com/profile.php?id=100027609278755"
     twitter = "https://twitter.com/jun_robot"
     github = "https://github.com/Jun-robot"
     instagram = "https://www.instagram.com/jun.rcj/?hl=ja"
