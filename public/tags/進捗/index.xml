@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>進捗 on Junのロボット日記</title>
+    <link>https://jun-robot.netlify.app/tags/%E9%80%B2%E6%8D%97/</link>
+    <description>Recent content in 進捗 on Junのロボット日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jun-robot.netlify.app/tags/%E9%80%B2%E6%8D%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NESTロボコン2022終わった！！</title>
+      <link>https://jun-robot.netlify.app/posts/nest-robocon2022/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/nest-robocon2022/</guid>
+      <description>お久しぶりです。 NESTロボコンに向けた新型機の製作に追われて全くブログ投稿できていませんでしたが、やっと一段落したのでさらっとNESTロボ</description>
+    </item>
+    
+    <item>
+      <title>今シーズンの開発計画2022-2023</title>
+      <link>https://jun-robot.netlify.app/posts/developmentplan2022-2023/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/developmentplan2022-2023/</guid>
+      <description>こんにちは。 今回は、頭の中にたくさん浮かんでいる今シーズンの計画をしっかりと文字に起こして頭の整理をしていきます。 ロボカップに関して ハードか</description>
+    </item>
+    
+  </channel>
+</rss>

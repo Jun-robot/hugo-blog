@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Junのロボット日記</title>
+    <link>https://jun-robot.netlify.app/</link>
+    <description>Recent content on Junのロボット日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jun-robot.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NESTロボコン2022終わった！！</title>
+      <link>https://jun-robot.netlify.app/posts/nest-robocon2022/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/nest-robocon2022/</guid>
+      <description>お久しぶりです。 NESTロボコンに向けた新型機の製作に追われて全くブログ投稿できていませんでしたが、やっと一段落したのでさらっとNESTロボ</description>
+    </item>
+    
+    <item>
+      <title>ロボットの要件定義 &amp; ラズピコを動かしてみよう【1.5万円で作るサッカーロボ No.1】</title>
+      <link>https://jun-robot.netlify.app/posts/setting-raspico/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/setting-raspico/</guid>
+      <description>【1.5万円で作るサッカーロボ】の第1弾、要件定義とRaspberry Pi Pico(ラズピコ)の環境構築と、Lチカ編です。 【1.5万円で作るサ</description>
+    </item>
+    
+    <item>
+      <title>Ender3 S1 Proを買ったはなし</title>
+      <link>https://jun-robot.netlify.app/posts/buy-ender3-s1-pro/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/buy-ender3-s1-pro/</guid>
+      <description>こんばんわ。 今回は、My3Dプリンターをゲットしたのでレビューしていきます！ 購入した機種は、Creality の Ender3 S1 Proです。 選定理由 いいと</description>
+    </item>
+    
+    <item>
+      <title>買う前にいろんな3Dプリンタを分析してみた。</title>
+      <link>https://jun-robot.netlify.app/posts/analysis-3d-printer/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/analysis-3d-printer/</guid>
+      <description>今回は、ロボット用にまともに使える3Dプリンタを買おうと思い、いろいろ調べたのでまとめておきます！ 要件 まずは、要件です。 RCJのロボットのパ</description>
+    </item>
+    
+    <item>
+      <title>今シーズンの開発計画2022-2023</title>
+      <link>https://jun-robot.netlify.app/posts/developmentplan2022-2023/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/developmentplan2022-2023/</guid>
+      <description>こんにちは。 今回は、頭の中にたくさん浮かんでいる今シーズンの計画をしっかりと文字に起こして頭の整理をしていきます。 ロボカップに関して ハードか</description>
+    </item>
+    
+    <item>
+      <title>個人ブログ開設！！</title>
+      <link>https://jun-robot.netlify.app/posts/firstpost/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/posts/firstpost/</guid>
+      <description>はじめまして！！ この度、個人ブログを開設しました！！制作は昨年の11月頃から始めたのですが、なんかちがうなーと作り直しを重ね、このままでは公</description>
+    </item>
+    
+    <item>
+      <title>Profile</title>
+      <link>https://jun-robot.netlify.app/pages/profile/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/pages/profile/</guid>
+      <description>プロフィールページを開いてくれてありがとうございます！！ ロボットが大好きな高校生の Jun(齋藤淳平) です。 中学にたまたまロボットを作れる部活</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jun-robot.netlify.app/pages/projects/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.app/pages/projects/</guid>
+      <description>これまでやってきた＆進行中のプロジェクトを紹介 RCJSoccerLightweight(All_outlook) 2021/04~ リレーで作る半加算器 2020/06~2020/09 全日本学生児童発明工夫展に向けて製作しました。 RCJOnStageワ</description>
+    </item>
+    
+  </channel>
+</rss>
