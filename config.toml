@@ -17,7 +17,7 @@ googleAnalytics = "G-D0TKMHP045" # Optional
     copyrightYear = "2022 Jun-robot　"
     description = "ロボット好き高校生の開発記録"
 
-    # twitterID = "@jun_robot"
+    twitterID = "@jun_robot"
     # description = "個人ブログです！"
     # images = ["/images/default.jpg"]
     
