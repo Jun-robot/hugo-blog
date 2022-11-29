@@ -1,103 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
 
-        {{ partial "meta.html" . }}
-        {{ block "meta" . }}{{ end }}
+<head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
 
-        <link rel="canonical" href="{{ .Permalink }}">
+    {{ partial "meta.html" . }}
+    {{ block "meta" . }}{{ end }}
 
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
+    <link rel="canonical" href="{{ .Permalink }}">
 
-        {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
 
-        {{ $style := resources.Get "author.scss" | toCSS | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-        {{ $style := resources.Get "article.scss" | toCSS | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $style := resources.Get "author.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-        <style>
-            .thumb {
-                background-image: url("{{ "/images/default.jpg" | absURL }}");
-                background-size: cover;
-                background-position: center;
+    {{ $style := resources.Get "article.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+    <style>
+        .thumb {
+            background-image: url("{{ " /images/default.jpg" | absURL }}");
+            background-size: cover;
+            background-position: center;
+        }
+
+            {
+                {
+                range $p : =.Site.RegularPages
             }
-            {{ range $p := .Site.RegularPages }}
-                {{ with $p.Params.thumbnail }}
-            .thumb-{{ $p.File.UniqueID }} {
-                background-image: url("{{ . | absURL }}");
+        }
+
+            {
+                {
+                with $p.Params.thumbnail
             }
-                {{ end }}
-            {{ end }}
+        }
 
-            {{ partial "custom.css" . | safeCSS }}
-        </style>
+        .thumb- {
+                {
+                $p.File.UniqueID
+            }
+        }
+
+            {
+            background-image: url("{{ . | absURL }}");
+        }
+
+            {
+                {
+                end
+            }
+        }
+
+            {
+                {
+                end
+            }
+        }
+
+            {
+                {
+                partial "custom.css" . | safeCSS
+            }
+        }
+    </style>
 
 
-<!-- General -->
-<meta property="og:url" content="{{ .Permalink }}" />
+    <!-- General -->
+
+    <!-- <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ with .Description -}}{{ . }}{{ else -}}{{ if .IsPage }}{{ substr .Summary 0 300 }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-<meta property="og:image" content="{{ if .Params.thumbnail -}}{{ .Params.thumbnail|absURL }}{{ else if hasPrefix .File.Path "post" -}}{{ path.Join "tcard" (print .File.BaseFileName ".png") | absURL }}{{ else -}}{{ "images/tobias-keller-73F4pKoUkM0-unsplash.jpg" | absURL }}{{ end -}}" />
-<!-- Twitter -->
-<!-- <meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="{{ if .Params.thumbnail -}}{{ .Params.thumbnail|absURL }}{{ else if hasPrefix .File.Path "post" -}}{{ path.Join "tcard" (print .File.BaseFileName ".png") | absURL }}{{ else -}}{{ "images/tobias-keller-73F4pKoUkM0-unsplash.jpg" | absURL }}{{ end -}}" /> -->
+
+    <!-- Twitter -->
+    <!-- <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ .Site.Params.twitterName }}" /> -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@jun_robot" />
-<!-- <meta name="twitter:title" content="{{ .Title }}"/>
+
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@jun_robot" /> -->
+
+    <!-- <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:description" content="{{ with .Description -}}{{ . }}{{ else -}}{{ if .IsPage }}{{ substr .Summary 0 300 }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta name="twitter:image" content="{{ if .Params.thumbnail -}}{{ .Params.thumbnail|absURL }}{{ else if hasPrefix .File.Path "post" -}}{{ path.Join "tcard" (print .File.BaseFileName ".png") | absURL }}{{ else -}}{{ "img/default.png" | absURL }}{{ end -}}" /> -->
 
 
-        <!-- Google Analysis (gtag.js版) -->
-        {{ if not .Site.IsServer }}
-        {{ if and .Site.GoogleAnalytics (ne (getenv "HUGO_ENV") "DEV") }}
+    <!-- Google Analysis (gtag.js版) -->
+    {{ if not .Site.IsServer }}
+    {{ if and .Site.GoogleAnalytics (ne (getenv "HUGO_ENV") "DEV") }}
 
-            <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.GoogleAnalytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-                gtag('config', '{{ .Site.GoogleAnalytics }}');
-            </script>
-        {{ end }}
-        {{ end }}
+        gtag('config', '{{ .Site.GoogleAnalytics }}');
+    </script>
+    {{ end }}
+    {{ end }}
 
-        <meta name="google-site-verification" content="TsFXHknRtj2FjDwuZfwaYfwo7o3WZzNXYtqJDHfy1rE" />
+    <meta name="google-site-verification" content="TsFXHknRtj2FjDwuZfwaYfwo7o3WZzNXYtqJDHfy1rE" />
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header class="l-header">
-            <div class="title-logo-wrapper">
-                <h1 class="logo">
-                    <a href="{{ .Site.BaseURL }}"><img src="/images/logo.png"></a>
-                </h1>
-                <nav class="topnav">
-                    <ul class="topnav_menu">
+    <header class="l-header">
+        <div class="title-logo-wrapper">
+            <h1 class="logo">
+                <a href="{{ .Site.BaseURL }}"><img src="/images/logo.png"></a>
+            </h1>
+            <nav class="topnav">
+                <ul class="topnav_menu">
 
-                        <li class="topnav_menu_item"><a href="/">Home</a></li>
-                        <li class="topnav_menu_item"><a href="/tags">Tags</a></li>
-                        <li class="topnav_menu_item"><a href="/pages/profile">Profile</a></li>
-                        <li class="topnav_menu_item"><a href="/pages/projects">Projects</a></li>
-                       
-                    </ul>
-                </nav>
-            </div>
-        </header>
+                    <li class="topnav_menu_item"><a href="/">Home</a></li>
+                    <li class="topnav_menu_item"><a href="/tags">Tags</a></li>
+                    <li class="topnav_menu_item"><a href="/pages/profile">Profile</a></li>
+                    <li class="topnav_menu_item"><a href="/pages/projects">Projects</a></li>
 
-        <main>
-            <div class="l-container">
-                <div class="mrow">
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="l-container">
+            <div class="mrow">
                 <div class="mcol c8">
                     {{ block "main" . }}{{ end }}
                 </div>
@@ -111,11 +147,11 @@
                     </aside>
                 </div>
             </div>
-        </main>
+    </main>
 
-        <footer class="l-footer">
-            <p>CopyRight&copy; {{ .Site.Params.copyrightYear }} {{ .Site.Title }} </p>
-        </footer>
-    </body>
+    <footer class="l-footer">
+        <p>CopyRight&copy; {{ .Site.Params.copyrightYear }} {{ .Site.Title }} </p>
+    </footer>
+</body>
+
 </html>
-
