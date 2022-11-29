@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3Dプリンタ on Junのロボット日記</title>
+    <link>https://jun-robot.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</link>
+    <description>Recent content in 3Dプリンタ on Junのロボット日記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jun-robot.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ender3 S1 Proを買ったはなし</title>
+      <link>https://jun-robot.netlify.com/posts/buy-ender3-s1-pro/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/posts/buy-ender3-s1-pro/</guid>
+      <description>こんばんわ。 今回は、My3Dプリンターをゲットしたのでレビューしていきます！ 購入した機種は、Creality の Ender3 S1 Proです。 選定理由 いいと</description>
+    </item>
+    
+    <item>
+      <title>買う前にいろんな3Dプリンタを分析してみた。</title>
+      <link>https://jun-robot.netlify.com/posts/analysis-3d-printer/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/posts/analysis-3d-printer/</guid>
+      <description>今回は、ロボット用にまともに使える3Dプリンタを買おうと思い、いろいろ調べたのでまとめておきます！ 要件 まずは、要件です。 RCJのロボットのパ</description>
+    </item>
+    
+  </channel>
+</rss>

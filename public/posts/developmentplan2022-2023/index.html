@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>今シーズンの開発計画2022-2023 - Junのロボット日記</title>
+
+    <meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com"  crossorigin>
+<link rel="dns-prefetch preconnect" href="https://use.fontawesome.com"  crossorigin>
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.94.0" />
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" sizes="128x128">
+<link rel="icon" type="image/png" href="android-touch-icon.png" sizes="128x128">
+<link rel="shortcut icon" href="/images/favicon.ico" />
+
+
+
+
+
+    
+<meta name="description" content="2022-2023の開発計画をまとめました。今年も色々やっていきます。">
+
+<meta property="og:title" content="今シーズンの開発計画2022-2023 - Junのロボット日記">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jun-robot.netlify.com/posts/developmentplan2022-2023/">
+<meta property="og:image" content="https://jun-robot.netlify.com/images/default.jpg">
+<meta property="og:site_name" content="Junのロボット日記">
+<meta property="og:description" content="2022-2023の開発計画をまとめました。今年も色々やっていきます。">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Junのロボット日記">
+<meta name="twitter:url" content="https://jun-robot.netlify.com/posts/developmentplan2022-2023/">
+<meta name="twitter:title" content="今シーズンの開発計画2022-2023 - Junのロボット日記">
+<meta name="twitter:description" content="2022-2023の開発計画をまとめました。今年も色々やっていきます。">
+<meta name="twitter:image" content="https://jun-robot.netlify.com/images/default.jpg">
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+            displayMath: [ ['$$', '$$']], 
+            processEscapes: true,
+        },
+    });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<link href="https://jun-robot.netlify.com/css/syntax.css" rel="stylesheet">
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/jun-robot.netlify.com\/"
+    },
+    "headline": "今シーズンの開発計画2022-2023-Junのロボット日記",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/jun-robot.netlify.com\/images\/default.jpg",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2022-06-27T00:00:00JST",
+    "dateModified": "2022-06-27T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "Junのロボット日記"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Junのロボット日記",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/jun-robot.netlify.com\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "2022-2023の開発計画をまとめました。今年も色々やっていきます。"
+  }
+</script>
+
+
+
+    <link rel="canonical" href="https://jun-robot.netlify.com/posts/developmentplan2022-2023/">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="https://jun-robot.netlify.com/styles.min.24c37af16dca59ea35be40a0ee4f0a29f70017e7e335ad5ba097e5272d78620f.css">
+
+    
+    <link rel="stylesheet" href="https://jun-robot.netlify.com/author.min.95b06b2aa2f6ae33bf9ec325643a5e138d2ee2f7baef884fa14189cc6359fa12.css">
+
+    
+    <link rel="stylesheet" href="https://jun-robot.netlify.com/article.min.b6c505d90e2658dcf20514d073b5e1254734a1bf696457ad746509983def68bd.css">
+
+    <style>
+        .thumb {
+            background-image: url("https://jun-robot.netlify.com/%20/images/default.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+            {
+                {
+                range $p : =.Site.RegularPages
+            }
+        }
+
+            {
+                {
+                with $p.Params.thumbnail
+            }
+        }
+
+        .thumb- {
+                {
+                $p.File.UniqueID
+            }
+        }
+
+            {
+            background-image: url("https://jun-robot.netlify.com/Page%28/posts/220627.md%29");
+        }
+
+            {
+                {
+                end
+            }
+        }
+
+            {
+                {
+                end
+            }
+        }
+
+            {
+                {
+                partial "custom.css" . | safeCSS
+            }
+        }
+    </style>
+
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+
+    
+    
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0TKMHP045"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D0TKMHP045');
+    </script>
+    
+    
+
+    <meta name="google-site-verification" content="TsFXHknRtj2FjDwuZfwaYfwo7o3WZzNXYtqJDHfy1rE" />
+
+</head>
+
+<body>
+
+    <header class="l-header">
+        <div class="title-logo-wrapper">
+            <h1 class="logo">
+                <a href="https://jun-robot.netlify.com/"><img src="/images/logo.png"></a>
+            </h1>
+            <nav class="topnav">
+                <ul class="topnav_menu">
+
+                    <li class="topnav_menu_item"><a href="/">Home</a></li>
+                    <li class="topnav_menu_item"><a href="/tags">Tags</a></li>
+                    <li class="topnav_menu_item"><a href="/pages/profile">Profile</a></li>
+                    <li class="topnav_menu_item"><a href="/pages/projects">Projects</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="l-container">
+            <div class="mrow">
+                <div class="mcol c8">
+                    
+
+<article class="sn">
+
+    
+        <div class="thumb thumb-85862a8ae537e41eeb095c5b024db77b"></div>
+    
+
+    <header class="article-header">
+        <h1 class="title">今シーズンの開発計画2022-2023</h1>
+
+        <ul class="facts">
+
+            
+                <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2022-06-27T00:00:00JST">2022-06-27</time></li>
+
+            
+            
+            
+
+            
+
+            
+            
+        </ul>
+
+        
+        
+
+        
+
+        
+        
+
+    </header>
+
+    
+
+    <div class="article-body"><p>こんにちは。</p>
+<p>今回は、頭の中にたくさん浮かんでいる今シーズンの計画をしっかりと文字に起こして頭の整理をしていきます。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="ロボカップに関して">ロボカップに関して</h2>
+<h3 id="ハードからソフトまで全部一人で作る"><strong>ハードからソフトまで全部一人で作る</strong></h3>
+<p>今年、一番やりたいことはこれです。</p>
+<p>ちなみに出場する競技は、もちろん今年も<strong>RCJサッカーライトウェイト</strong>です。
+(いろいろ載せたすぎて重量がきつかったらオープンにするかも、、いやライトで頑張るのが一番楽しいかな、、、)</p>
+<p>これまでの僕のロボット作りは、誰かとチームで分担してやってきました。中学時代はハード全般、高校生になってからはソフトメインでチームに貢献してきました。今年は、どっちも自分のやりたいようにやって1台作り上げてみたいなぁと思っています。</p>
+<p>今年4月にあった全国大会のために作ろうとした幻の新型機の設計を担当したら、ハード設計の楽しさを思い出し、プログラムも去年である程度は学べたので、どっちもある程度わかった状態で全部作ったら、めちゃくちゃ楽しいんじゃないかなと思ってます。</p>
+<p>しかし、これには1つ重大な問題があります。チームメイトがいないと大会に出られないということです。どうしようかなぁというところです。まぁそれはロボットができてからでも考えます。</p>
+<h3 id="絶対実現すること"><strong>絶対実現すること</strong></h3>
+<ul>
+<li>Git理解して使いこなせるようになる。
+<ul>
+<li>使ってみてはいるが、全然使いこなせないので使いこなせるようになりたい</li>
+</ul>
+</li>
+<li>ちゃんとオブジェクト指向でプログラム書けるようになる。
+<ul>
+<li>クラスちゃんと使ってデバッグしやすいプログラム書きたい</li>
+</ul>
+</li>
+<li>STM32に移行する。
+<ul>
+<li>変数の中身を確認しながらデバッグできるらしい。めっちゃ便利そう。</li>
+<li>mbedとかHALで開発してみたい。</li>
+<li>HAL使えるようになったら色んなマイコン使えそうで楽しそう。</li>
+</ul>
+</li>
+<li>双曲面ミラーで全方位カメラ
+<ul>
+<li>ちゃんと数学勉強してミラー作る。</li>
+<li>カメラを飾りにするじゃなくて、ちゃんと使いこなす。</li>
+<li>ゴールに向かって傾けたり相手避けたりするのめっちゃカッコいい</li>
+<li>コンピュータはラズパイでやりたいなぁって。　</li>
+</ul>
+</li>
+<li>定量的にいろいろ考えていきたい。
+<ul>
+<li>まぁこんなもんだろっていう感覚とやってきたところを少しずつ計算したりして考えれるようにしていきたい。</li>
+</ul>
+</li>
+<li>回路ガンバル！！
+<ul>
+<li>中学では、ユニバーサル基板でしか回路やってこなかったので、ほぼ初めての基板設計</li>
+<li>EAGLEは少し使ったことあるけどKiCADでやってみたい感もある。</li>
+</ul>
+</li>
+</ul>
+<h3 id="やってみたいこと"><strong>やってみたいこと</strong></h3>
+<p>その他もろもろのやってみたいことたちです。</p>
+<ul>
+<li>自作ギア
+<ul>
+<li>3Dプリンタでギア作るの面白そう</li>
+</ul>
+</li>
+<li>ラインの画像認識
+<ul>
+<li>ロボットの底面全体にセンサ敷き詰めたら角でも完璧に出ないロボット作れそう</li>
+</ul>
+</li>
+<li>BLDC自体の自作
+<ul>
+<li>ブラシレスについて調べてたら、自分でも作れるんじゃねって思ったから磁石とコイルで作ってみたい。</li>
+</ul>
+</li>
+<li>ドリブラー(自作BLDCでできたらいいなぁ)
+<ul>
+<li>カッコいい</li>
+</ul>
+</li>
+<li>フルカラー円形ディスプレイ
+<ul>
+<li>IRの上に載せたらめっちゃかっこよさそう</li>
+</ul>
+</li>
+<li>音楽！！
+<ul>
+<li>ロボットの状態に合わせてゲームBGM的なのを<strong>大音量</strong>で流したい</li>
+</ul>
+</li>
+<li>BLDC MD自作
+<ul>
+<li>Root41すごかった。。</li>
+<li>ブラシレス、軽くて小型でハイパワーってヤバい。</li>
+</ul>
+</li>
+<li>自作キッカー
+<ul>
+<li>SSLでやってるチームいたから参考にして作ってみたい！</li>
+<li>パワーは弱まるかもだけど軽く作れそう</li>
+</ul>
+</li>
+<li>メカナムブロッカー
+<ul>
+<li>メカナムホイール使ってみたい</li>
+</ul>
+</li>
+</ul>
+<h3 id="実現計画"><strong>実現計画</strong></h3>
+<p>この大量のやりたいこと達を攻略して最強のロボットを作ります。</p>
+<p>しかし、最初から全部載せで作って、安定して動かず千葉ノード敗退とかになったら元も子もないので、それぞれの機能をモジュール化し、できるだけ互換性を持たせたいなと思っています。</p>
+<p>まずは、8月のNESTロボコン2022に向けて、去年までとほぼ変わらない構成だけど、それぞれの機能のバージョンアップがしやすい機体を作り上げます。</p>
+<p>そして、徐々にバージョンアップしていき、最終的にやりたいことを全て実現したいと思っています。</p>
+<h3 id="nest機の構想"><strong>NEST機の構想</strong></h3>
+<p>最低限の機能で安定して動くを目標にして作ります。</p>
+<p><strong>基本構成</strong></p>
+<ul>
+<li>STM32を使う！！
+<ul>
+<li>446と303発掘したから色々やって見る</li>
+</ul>
+</li>
+<li>上下で分離できるようにする。
+<ul>
+<li>足回り＆キッカー＆ラインセンサユニットとその他いろいろユニットに分ける。</li>
+<li>今シーズンは、足回りを中心に作っていく！</li>
+</ul>
+</li>
+<li>マイコン間通信はSPIかCANで
+<ul>
+<li>その通信形式と1年間付き合うことになるからしっかり検討する。</li>
+<li>ダメそうだったら何も考えなくても動いてくれるUARTで</li>
+</ul>
+</li>
+</ul>
+<p><strong>アクチュエーター</strong></p>
+<ul>
+<li>モーター
+<ul>
+<li>去年、一瞬話題になってたIG22+RC280</li>
+<li>モタドラも頑張って自作する！</li>
+</ul>
+</li>
+<li>キッカー
+<ul>
+<li>みんな大好きCB1037</li>
+<li>昇圧回路も頑張る</li>
+</ul>
+</li>
+</ul>
+<p><strong>センサー</strong></p>
+<ul>
+<li>ボールセンサ
+<ul>
+<li>いつも使ってるTSSP58038×16</li>
+<li>回路はマルチプレクサはさんでアナログで読むのが一番速そうっていう議論をこの前したのでそれで行く！</li>
+</ul>
+</li>
+<li>ラインセンサ
+<ul>
+<li>チップのいい感じのやつないかなと捜索中</li>
+<li>なにかおすすめとかあったら教えて下さい！！</li>
+</ul>
+</li>
+<li>ジャイロセンサ
+<ul>
+<li>いつもどおりMPU6050で</li>
+</ul>
+</li>
+<li>マウスセンサ
+<ul>
+<li>基本構成とは言いながらやってみたいんだからしょうがない</li>
+</ul>
+</li>
+<li>モーター用のエンコーダー
+<ul>
+<li>ブラシレスやりたいからエンコーダー使いこなしたい</li>
+<li>選定は今から</li>
+</ul>
+</li>
+</ul>
+<h2 id="その他もろもろのやりたいこと達">その他もろもろのやりたいこと達</h2>
+<ul>
+<li>2月頃にブロックでボロ負けして、やることないから始めたロボット教室プロジェクト
+<ul>
+<li>プロトタイプ作ったまま放置されているから改良していく</li>
+</ul>
+</li>
+<li>技育プロジェクト出てみたい！！
+<ul>
+<li>技育展で発表してみたいけどアイデアない。。。</li>
+</ul>
+</li>
+<li>やったことを文章でしっかりまとめて日本学生科学賞かJSECとかに出してみたい
+<ul>
+<li>やったことまとめるのおもしろそう。</li>
+</ul>
+</li>
+<li>新しい出会いが沢山ありそうなので、興味を持ったことは少しでもやってみる！！</li>
+</ul>
+<h2 id="ほしいものリスト">ほしいものリスト</h2>
+<p>財団からお金が出るとか出ないとか書いてあったから、もし出たらほしいなっていう設備など。もし出なくても買うつもりのやつも混じってたり</p>
+<ul>
+<li>3Dプリンタ
+<ul>
+<li>Ender3proかAdventure4あたりが欲しいなって。</li>
+</ul>
+</li>
+<li>CNC
+<ul>
+<li>ホントはKitmillが欲しいけど値段が、、</li>
+<li>中華の安いやつ買ってみようかな</li>
+</ul>
+</li>
+<li>レーザーカッター
+<ul>
+<li>MDF切り出して部品作るの、速くて安くて良さそう。</li>
+</ul>
+</li>
+<li>真空成形機
+<ul>
+<li>全方位ミラー作るのに使う。</li>
+<li>型に押し付けるだけの方式でも良さそうだけど、これ使ったほうがきれいにできそう。</li>
+</ul>
+</li>
+<li>HAKKOのちゃんとしたハンダゴテ
+<ul>
+<li>良いハンダゴテは良いらしい。</li>
+</ul>
+</li>
+<li>リフロー機
+<ul>
+<li>中華のやつかホットプレートかトースターか。どれがいいんだろうか。</li>
+</ul>
+</li>
+<li>MAXONかFAUL
+<ul>
+<li>憧れのコアレスモーター。お金があったら使いたいなってずっと思ってた。</li>
+</ul>
+</li>
+</ul>
+<h2 id="おわりに">おわりに</h2>
+<p>そんなこんなで頑張っていきます！！(学校の勉強も、、、)</p>
+<p>初の回路製作、どうなることやら。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>たまに一気に進捗出すってよりは日々こつこつ進捗出せる人になりたいな。</p>
+</div>
+
+    <footer class="article-footer">
+
+        <ul class="facts_tags">
+            
+            <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2022-06-27T00:00:00JST">2022-06-27</time></li>
+
+            
+            
+            <br>
+
+            
+            
+
+            
+            
+                <li><i class="fas fa-tags" aria-hidden="true"></i><a href="https://jun-robot.netlify.com/tags/%E9%80%B2%E6%8D%97">進捗</a> </li>
+            
+
+        </ul>
+
+        <aside class="share">
+  <a href="https://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fjun-robot.netlify.com%2fposts%2fdevelopmentplan2022-2023%2f&title=%e4%bb%8a%e3%82%b7%e3%83%bc%e3%82%ba%e3%83%b3%e3%81%ae%e9%96%8b%e7%99%ba%e8%a8%88%e7%94%bb2022-2023" title="はてなブックマーク" class="ht" target="_blank" rel="noopener nofollow">B!</a>
+  <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fjun-robot.netlify.com%2fposts%2fdevelopmentplan2022-2023%2f&text=%e4%bb%8a%e3%82%b7%e3%83%bc%e3%82%ba%e3%83%b3%e3%81%ae%e9%96%8b%e7%99%ba%e8%a8%88%e7%94%bb2022-2023&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="noopener nofollow"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjun-robot.netlify.com%2fposts%2fdevelopmentplan2022-2023%2f&t=%e4%bb%8a%e3%82%b7%e3%83%bc%e3%82%ba%e3%83%b3%e3%81%ae%e9%96%8b%e7%99%ba%e8%a8%88%e7%94%bb2022-2023" title="Facebookでシェア" class="fb" target="_blank" rel="noopener nofollow"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://getpocket.com/edit?url=https%3a%2f%2fjun-robot.netlify.com%2fposts%2fdevelopmentplan2022-2023%2f&title=%e4%bb%8a%e3%82%b7%e3%83%bc%e3%82%ba%e3%83%b3%e3%81%ae%e9%96%8b%e7%99%ba%e8%a8%88%e7%94%bb2022-2023" title="Pocketに保存" class="pk" target="_blank" rel="noopener nofollow"><i class="fab fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fjun-robot.netlify.com%2fposts%2fdevelopmentplan2022-2023%2f" title="LINEでシェア" class="ln" target="_blank" rel="noopener nofollow"><i class="fab fa-line" aria-hidden="true"></i></a>
+</aside>
+
+        
+
+
+    </footer>
+
+</article>
+
+
+<div class="adj mrow">
+  <div class="mcol c6">
+    <header>Next Article</header>
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/analysis-3d-printer/">
+    <div class="thumb thumb-02865b56fac6ba899a6811f884d5cd12"></div>
+
+    <div class="inner">
+      <div class="title">買う前にいろんな3Dプリンタを分析してみた。</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2007-07-02T00:00:00JST">2022-07-02</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+  </div>
+  <div class="mcol c6">
+    <header>Previous Article</header>
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/firstpost/">
+    <div class="thumb thumb-91dd04499074523ea836f63c255cc8c1"></div>
+
+    <div class="inner">
+      <div class="title">個人ブログ開設！！</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="26007-06-26T00:00:00JST">2022-06-26</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+  </div>
+</div>
+
+
+
+                </div>
+                <div class="mcol c4">
+                    <aside class="l-sidebar">
+                        
+<section class="sidebar">
+  <header>AUTHOR</header>
+  <div class="author">
+
+    
+    <div class="author-thumb" style="background-image: url(https://jun-robot.netlify.com/images/author.jpg);"></div>
+    
+
+    <div class="author-name"><a href ='/pages/profile'>Jun</a></div>
+
+    <ul class="author-facts">
+
+      
+      <li><a href="https://www.facebook.com/profile.php?id=100027609278755" rel="noopener nofollow" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+      
+
+      
+      <li><a href="https://twitter.com/jun_robot" rel="noopener nofollow" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+      
+
+      
+      <li><a href="https://github.com/Jun-robot" rel="noopener nofollow" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+      
+
+      
+        <li><a href="https://forms.gle/zz9gU4PpSXTzhEsJ7" rel="nofollow" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+        
+
+      
+        <li><a href="https://www.instagram.com/jun.rcj/?hl=ja" rel="nofollow" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+        
+
+    </ul>
+
+    <div class="author-description"><p>千葉県に住んでいる高校生ロボカッパー。<br>ハードからソフトまで広く浅くやってます。</p></div>
+
+  </div>
+</section>
+
+
+                        
+<section class="sidebar">
+  <header>LATESTS</header>
+  
+  <div class="articles sm">
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/nest-robocon2022/">
+    <div class="thumb thumb-3fef7ab5d9fd14af629fbad5b17acc4c"></div>
+
+    <div class="inner">
+      <div class="title">NESTロボコン2022終わった！！</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="30007-08-30T00:00:00JST">2022-08-30</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/setting-raspico/">
+    <div class="thumb thumb-404ca525651a4b0c8e9a0782d53db684"></div>
+
+    <div class="inner">
+      <div class="title">ロボットの要件定義 &amp; ラズピコを動かしてみよう【1.5万円で作るサッカーロボ No.1】</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="8007-07-08T00:00:00JST">2022-07-08</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/buy-ender3-s1-pro/">
+    <div class="thumb thumb-425c0219a34d850928893fe6d96b1c48"></div>
+
+    <div class="inner">
+      <div class="title">Ender3 S1 Proを買ったはなし</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="7007-07-07T00:00:00JST">2022-07-07</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/analysis-3d-printer/">
+    <div class="thumb thumb-02865b56fac6ba899a6811f884d5cd12"></div>
+
+    <div class="inner">
+      <div class="title">買う前にいろんな3Dプリンタを分析してみた。</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2007-07-02T00:00:00JST">2022-07-02</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+    <article class="lism">
+  <a href="https://jun-robot.netlify.com/posts/developmentplan2022-2023/">
+    <div class="thumb thumb-85862a8ae537e41eeb095c5b024db77b"></div>
+
+    <div class="inner">
+      <div class="title">今シーズンの開発計画2022-2023</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="27007-06-27T00:00:00JST">2022-06-27</time></li>
+        
+        
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    
+  </div>
+</section>
+
+                        
+                        
+<section class="sidebar">
+    <header>TAGS</header>
+    <ul class="terms">
+        
+
+        
+        
+            <li><a href="https://jun-robot.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF"><i class="fas fa-tags" aria-hidden="true"></i> 3dプリンタ <span class="count">(2)</span></a></li>
+        
+            <li><a href="https://jun-robot.netlify.com/tags/ender3"><i class="fas fa-tags" aria-hidden="true"></i> ender3 <span class="count">(2)</span></a></li>
+        
+            <li><a href="https://jun-robot.netlify.com/tags/%E9%80%B2%E6%8D%97"><i class="fas fa-tags" aria-hidden="true"></i> 進捗 <span class="count">(2)</span></a></li>
+        
+            <li><a href="https://jun-robot.netlify.com/tags/1.5%E4%B8%87%E5%86%86%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AD%E3%83%9C"><i class="fas fa-tags" aria-hidden="true"></i> 1.5万円で作るサッカーロボ <span class="count">(1)</span></a></li>
+        
+            <li><a href="https://jun-robot.netlify.com/tags/raspberry-pi-pico"><i class="fas fa-tags" aria-hidden="true"></i> raspberry-pi-pico <span class="count">(1)</span></a></li>
+        
+            <li><a href="https://jun-robot.netlify.com/tags/rcj%E5%A4%A7%E4%BC%9A"><i class="fas fa-tags" aria-hidden="true"></i> rcj大会 <span class="count">(1)</span></a></li>
+        
+            <li><a href="https://jun-robot.netlify.com/tags/%E9%9B%BB%E5%B7%A5%E7%A0%94%E3%83%AD%E3%83%9C%E3%83%97%E3%83%AD"><i class="fas fa-tags" aria-hidden="true"></i> 電工研ロボプロ <span class="count">(1)</span></a></li>
+        
+        
+    </ul>
+</section>
+
+
+
+                        
+<section class="sidebar">
+  <header>LINKS</header>
+  <div class="articles sm">
+    <div class="latests">
+
+      <article class="lism">
+        <a href="https://blog.shirokuma89.dev" target="_blank">
+          <div class="inner">
+            <div class="title">しろくま＠胡瓜の自由帳</div>
+            <ul class="facts sm">
+              <div class="link_setumei">大会で会うたびに一緒にご飯食べに行く、くまちゃんのブログ</div>
+            </ul>
+          </div>
+        </a>
+      </article>
+
+      <article class="lism">
+        <a href="https://rcj-lightweight.hateblo.jp/archive" target="_blank">
+          <div class="inner">
+            <div class="title">All_outlookのブログ</div>
+            <ul class="facts sm">
+              <div class="link_setumei">僕が2021-2022シーズンに所属していたチームのブログ</div>
+            </ul>
+          </div>
+        </a>
+      </article>
+
+      <article class="lism">
+        <a href="https://onlydcx.netlify.app" target="_blank">
+          <div class="inner">
+            <div class="title">ゆーざーの日記</div>
+            <ul class="facts sm">
+              <div class="link_setumei">初めて出たNESTロボコンの頃から仲良くしてくれてるUserさんのブログ</div>
+            </ul>
+          </div>
+        </a>
+      </article>
+
+      <article class="lism">
+        <a href="https://jlcpcb.com/JPV" target="_blank">
+          <div class="Sponsor_inner">
+            <div class="title"><span
+                style="background: linear-gradient(transparent  70%, #ffc037  90%)">株式会社JLCPCB</span></div>
+            <ul class="facts sm">
+              <div class="link_setumei">
+                いつも発注させてもらっている<b>基板屋さん。</b>他の業者に比べて<span
+                  style="background: linear-gradient(transparent  70%, #ffc037  90%)"><b>速くて安い！</b></span>初めて発注した時からずっとお世話になっている。
+              </div>
+              <div class="link_setumei">
+                今は、新規ユーザーに<span
+                  style="background: linear-gradient(transparent  70%, #ffc037  90%)"><b>約7000円分</b></span>のクーポンを配布しているので<span
+                  style="background: linear-gradient(transparent  70%, #ffc037  90%)"><b>基板発注を始める大チャンス！！</b></span>
+              </div>
+            </ul>
+          </div>
+        </a>
+      </article>
+
+      <article class="lism">
+        <div class="inner">
+          <div class="title"></div>
+          <ul class="facts sm">
+            <div class="link_setumei">相互リンク募集中!!</div>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+                    </aside>
+                </div>
+            </div>
+    </main>
+
+    <footer class="l-footer">
+        <p>CopyRight&copy; 2022 Jun-robot　 Junのロボット日記 </p>
+    </footer>
+</body>
+
+</html>

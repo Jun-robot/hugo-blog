@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ロボット製作日記</title>
+    <title>Tags on Junのロボット日記</title>
     <link>https://jun-robot.netlify.com/tags/</link>
-    <description>Recent content in Tags on ロボット製作日記</description>
+    <description>Recent content in Tags on Junのロボット日記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 Apr 2022 01:24:42 +0900</lastBuildDate><atom:link href="https://jun-robot.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jun-robot.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>https://jun-robot.netlify.com/tags/hugo/</link>
-      <pubDate>Sun, 03 Apr 2022 01:24:42 +0900</pubDate>
+      <title>RCJ大会</title>
+      <link>https://jun-robot.netlify.com/tags/rcj%E5%A4%A7%E4%BC%9A/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jun-robot.netlify.com/tags/hugo/</guid>
+      <guid>https://jun-robot.netlify.com/tags/rcj%E5%A4%A7%E4%BC%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>進捗</title>
+      <link>https://jun-robot.netlify.com/tags/%E9%80%B2%E6%8D%97/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/tags/%E9%80%B2%E6%8D%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1.5万円で作るサッカーロボ</title>
+      <link>https://jun-robot.netlify.com/tags/1.5%E4%B8%87%E5%86%86%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AD%E3%83%9C/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/tags/1.5%E4%B8%87%E5%86%86%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AD%E3%83%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Pico</title>
+      <link>https://jun-robot.netlify.com/tags/raspberry-pi-pico/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/tags/raspberry-pi-pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>電工研ロボプロ</title>
+      <link>https://jun-robot.netlify.com/tags/%E9%9B%BB%E5%B7%A5%E7%A0%94%E3%83%AD%E3%83%9C%E3%83%97%E3%83%AD/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/tags/%E9%9B%BB%E5%B7%A5%E7%A0%94%E3%83%AD%E3%83%9C%E3%83%97%E3%83%AD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3Dプリンタ</title>
+      <link>https://jun-robot.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ender3</title>
+      <link>https://jun-robot.netlify.com/tags/ender3/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jun-robot.netlify.com/tags/ender3/</guid>
       <description></description>
     </item>
     

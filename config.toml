@@ -1,4 +1,4 @@
-baseURL = "https://jun-robot.netlify.com/"
+baseURL = "https://jun-robot.netlify.app/"
 title = "Junのロボット日記"
 languageCode = "ja"
 theme = "robust"

@@ -2,26 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jun-robot.netlify.com/tags/hugo/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <loc>https://jun-robot.netlify.com/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/nest-robocon2022/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jun-robot.netlify.com/posts/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/tags/rcj%E5%A4%A7%E4%BC%9A/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jun-robot.netlify.com/tags/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jun-robot.netlify.com/posts/startblog/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <loc>https://jun-robot.netlify.com/tags/%E9%80%B2%E6%8D%97/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jun-robot.netlify.com/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
+    <loc>https://jun-robot.netlify.com/tags/1.5%E4%B8%87%E5%86%86%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AD%E3%83%9C/</loc>
+    <lastmod>2022-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/tags/raspberry-pi-pico/</loc>
+    <lastmod>2022-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/setting-raspico/</loc>
+    <lastmod>2022-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/tags/%E9%9B%BB%E5%B7%A5%E7%A0%94%E3%83%AD%E3%83%9C%E3%83%97%E3%83%AD/</loc>
+    <lastmod>2022-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</loc>
+    <lastmod>2022-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/tags/ender3/</loc>
+    <lastmod>2022-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/buy-ender3-s1-pro/</loc>
+    <lastmod>2022-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/analysis-3d-printer/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/developmentplan2022-2023/</loc>
+    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jun-robot.netlify.com/posts/firstpost/</loc>
+    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jun-robot.netlify.com/pages/</loc>
-    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jun-robot.netlify.com/pages/profile/</loc>
-    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jun-robot.netlify.com/pages/projects/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
