@@ -9,7 +9,9 @@ description : ""
 
 プロフィールページを開いてくれてありがとうございます！！
 
-ロボット好き高校生Junです。
+ロボットが大好きな高校生の齋藤淳平です。
+
+インターネット上では、"Jun" という名前で活動しています！ 
 
 中学にたまたまロボットを作れる部活があったことで、ロボット製作に出会い、それからずっとロボットの虜になっています。
 
@@ -32,25 +34,33 @@ description : ""
 - CSS(上に同じ) -->
   
 ## 成果
-| 年   | 大会名 |結果|
-|---------------|----------|---------|
-| 2019 | RoboCupJunior JapanOpen OnStage日本リーグ | 優勝 |
-|      | RoboCupJunior 大垣オープン OnStage日本リーグ | 招待参加 |
-| 2020 | RoboCupJunior 関東ブロック OnStage世界リーグ　| 優勝 |
+| 年   | 大会名 | 結果 |
+|------|----------|---------|
+| 2019 | RoboCupJunior 2019 JapanOpen OnStage日本リーグ | 優勝 |
+|      | RoboCupJunior 2020 大垣オープン OnStage日本リーグ | 招待参加 |
+| 2020 | RoboCupJunior 2020 関東ブロック OnStage世界リーグ　| 優勝 |
 |      | 全日本学生児童発明工夫展 | 入選 |
 |      | 市議会表彰 | 受賞 |
 |      | 学校学芸優秀生徒表彰 | 市長賞 |
 |      | 県議会表彰 | 受賞 |
-| 2021 | Nestロボコン2021 SoccerLightweight | 準優勝 |
-|      | RoboCupJunior Asia-Pacific SoccerLightWeight | 11位/18チーム |
+| 2021 | Nestロボコン2021 サッカーLightweight | 準優勝 |
+|      | RoboCupJunior Asia-Pacific サッカーLightWeight | 11位/18チーム |
 |      | 一般社団法人 次世代ロボットエンジニア支援機構STEP | 採択 |
-| 2022 | RoboCupJunior 関東ブロック SoccerLightWeight | 10位 |
-|      | RoboCupJunior JapanOpen SoccerLightWeight | 13位/71チーム |
-|      | 孫正義育英財団6期生 | 準財団生 |
+| 2022 | RoboCupJunior 2022 関東ブロック サッカーLightWeight | 10位 |
+|      | RoboCupJunior 2022 JapanOpen サッカーLightWeight ({{< exlink href="https://www.robocupjunior.jp/2022keihanna_results.html" text="リンク" >}}) | 13位/71チーム |
+|      | 孫正義育英財団6期生 ({{< exlink href="https://talent.supporterz.jp/geekten/2022/" text="リンク" >}}) | 準財団生 |
+|      | Nestロボコン2022 サッカーLightweight ({{< exlink href="https://www.npo-nest.org/workshop/robocon/robocon2022_rank.html" text="リンク" >}})| 優勝&得点王 |
+|      | 技育展2022 ハード/組み込み部門({{< exlink href="https://talent.supporterz.jp/geekten/2022/exhibition.html#theme7" text="リンク" >}})| 参加賞 |
+|      | サイエンスキャッスル関東大会口頭発表({{< exlink href="https://s-castle.com/conference/kanto2022/" text="リンク" >}})|  |
 
      
-
-
+## 参加したイベントなどなど
+| 年   | イベント名 | 結果 |
+|------|-----------|---------|
+| 2022 | RoboCupJunior岐阜ブロック交流会 | 登壇 & 参加 |
+|      | RoboCupJuniorさいたまブロック交流会 | 参加 |
+|      | プレゼンテーションデー@千葉工大 | 登壇 |
+|      | RoboCupJunior千葉ノード大会 | オンステージ進行スタッフ |
 
 
 
@@ -89,7 +99,7 @@ CADを使うことでより複雑な設計をできるようになった。
 夏休みには、4bit加算器を作ってみた。
 それが終わってからは受験に集中した。 -->
 
-コロナで大会が中止なったりといろいろありつつも、4bit加算器を作ったりしていて。
+コロナで大会が中止なったりといろいろありつつも、4bit加算器を作ったりしていた。
 ちょうどこの頃、RCJサッカーに出たいと思い始め設計の勉強を始めた。
 {{< figure src="./3.jpg" alt="OnStage" width=400 >}}
 
