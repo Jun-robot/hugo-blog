@@ -59,13 +59,17 @@ description : ""
 |------|-----------|---------|
 | 2022 | RoboCupJunior岐阜ブロック交流会 | 登壇 & 参加 |
 |      | RoboCupJuniorさいたまブロック交流会 | 参加 |
-|      | プレゼンテーションデー@千葉工大 | 登壇 |
+|      | プレゼンテーションデー@千葉工大({{< exlink href="https://twitter.com/jun_robot/status/1589185900780879872" text="リンク" >}}) | 登壇 |
+|      | SFC OpenResearchForum({{< exlink href="https://twitter.com/jun_robot/status/1594261669030469632" text="リンク" >}}) |  |
 |      | RoboCupJunior2022千葉ノード大会 | オンステージ進行スタッフ |
+|      | 山中研究室最終展示「未来の原画」展({{< exlink href="https://twitter.com/jun_robot/status/1598271272097484800" text="リンク" >}}) |  |
 |      | RoboCupJunior2022南埼玉ノード大会 | サッカー審判 |
 |      | RoboCupJunior2022北埼玉ノード大会 | サッカー審判 |
 |      | zunŌwクリスマス発表会({{< exlink href="https://fn-zunow.com/blog/event/p4051/#:~:text=%E5%85%88%E6%97%A5%E5%87%BA%E5%A0%B4%E3%81%97%E3%81%9F%E3%80%8C%E3%83%AD%E3%83%9C%E3%82%AB%E3%83%83%E3%83%97%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E5%8D%83%E8%91%89%E3%83%8E%E3%83%BC%E3%83%89%E5%A4%A7%E4%BC%9A%E3%80%8D%E3%81%AB" text="リンク" >}})| ロボット操縦体験会開催 |
 | 2023 | RoboCupJunior2022埼玉ブロック大会 | サッカー審判 |
 |      | RoboCupJunior2022関東ブロック大会 | サッカー審判 |
+|      | メディア芸術祭({{< exlink href="https://twitter.com/jun_robot/status/1624684792607551488/" text="リンク" >}}) |  |
+|      | 超異分野学会東京大会2023({{< exlink href="https://twitter.com/jun_robot/status/1631614629628743682" text="リンク" >}}) |  |
 
 
 
