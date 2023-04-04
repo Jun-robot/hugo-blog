@@ -33,22 +33,25 @@ description : ""
 ## 成果
 | 年   | 大会名 | 結果 |
 |------|----------|---------|
-| 2019 | RoboCupJunior 2019 JapanOpen OnStage日本リーグ | 優勝 |
-|      | RoboCupJunior 2020 大垣オープン OnStage日本リーグ | 招待参加 |
-| 2020 | RoboCupJunior 2020 関東ブロック OnStage世界リーグ　| 優勝 |
+| 2019 | RoboCupJunior 2019 JapanOpen OnStage日本リーグ(Forest) | 優勝 |
+|      | RoboCupJunior 2020 大垣オープン OnStage日本リーグ(Forest) | 招待参加 |
+| 2020 | RoboCupJunior 2020 関東ブロック OnStage世界リーグ(Forest)　| 優勝 |
 |      | 全日本学生児童発明工夫展 | 入選 |
 |      | 市議会表彰 | 受賞 |
 |      | 学校学芸優秀生徒表彰 | 市長賞 |
 |      | 県議会表彰 | 受賞 |
-| 2021 | Nestロボコン2021 サッカーLightweight | 準優勝 |
-|      | RoboCupJunior Asia-Pacific サッカーLightWeight | 11位/18チーム |
+| 2021 | Nestロボコン2021 サッカーLightweight(All_outlook) | 準優勝 |
+|      | RoboCupJunior Asia-Pacific サッカーLightWeight(All_outlook) | 11位/18チーム |
 |      | 一般社団法人 次世代ロボットエンジニア支援機構STEP | 採択 |
-| 2022 | RoboCupJunior 2022 関東ブロック サッカーLightWeight | 10位 |
-|      | RoboCupJunior 2022 JapanOpen サッカーLightWeight ({{< exlink href="https://www.robocupjunior.jp/2022keihanna_results.html" text="リンク" >}}) | 13位/71チーム |
+| 2022 | RoboCupJunior 2022 関東ブロック サッカーLightWeight(All_outlook) | 10位 |
+|      | RoboCupJunior 2022 JapanOpen サッカーLightWeight(All_outlook) ({{< exlink href="https://www.robocupjunior.jp/2022keihanna_results.html" text="リンク" >}}) | 13位/71チーム |
 |      | 孫正義育英財団6期生 ({{< exlink href="https://talent.supporterz.jp/geekten/2022/" text="リンク" >}}) | 準財団生 |
 |      | Nestロボコン2022 サッカーLightweight ({{< exlink href="https://www.npo-nest.org/workshop/robocon/robocon2022_rank.html" text="リンク" >}})| 優勝&得点王 |
 |      | 技育展2022 ハード/組み込み部門({{< exlink href="https://talent.supporterz.jp/geekten/2022/exhibition.html#theme7" text="リンク" >}})| 参加賞 |
-|      | サイエンスキャッスル関東大会口頭発表({{< exlink href="https://s-castle.com/conference/kanto2022/" text="リンク" >}})|  |
+|      | サイエンスキャッスル関東大会口頭発表({{< exlink href="https://s-castle.com/news/17246/" text="リンク" >}})| 優秀賞 |
+| 2023 | RoboCupJunior 2022 JapanOpen サッカーOpen(Cranes)({{< exlink href="https://www.robocupjunior.jp/2023nagoya_results.html" text="リンク" >}})| 優秀プレゼンテーション賞 |
+|      | MakersUniversity U18 8期生({{< exlink href="https://u-18.makers-u.jp/" text="リンク" >}})|  |
+|      | 情報科学の達人 4期生({{< exlink href="https://www.nii.ac.jp/tatsujin/" text="リンク" >}})|  |
 
      
 ## 参加したイベントなどなど
@@ -57,7 +60,12 @@ description : ""
 | 2022 | RoboCupJunior岐阜ブロック交流会 | 登壇 & 参加 |
 |      | RoboCupJuniorさいたまブロック交流会 | 参加 |
 |      | プレゼンテーションデー@千葉工大 | 登壇 |
-|      | RoboCupJunior千葉ノード大会 | オンステージ進行スタッフ |
+|      | RoboCupJunior2022千葉ノード大会 | オンステージ進行スタッフ |
+|      | RoboCupJunior2022南埼玉ノード大会 | サッカー審判 |
+|      | RoboCupJunior2022北埼玉ノード大会 | サッカー審判 |
+|      | zunŌwクリスマス発表会({{< exlink href="https://fn-zunow.com/blog/event/p4051/#:~:text=%E5%85%88%E6%97%A5%E5%87%BA%E5%A0%B4%E3%81%97%E3%81%9F%E3%80%8C%E3%83%AD%E3%83%9C%E3%82%AB%E3%83%83%E3%83%97%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E5%8D%83%E8%91%89%E3%83%8E%E3%83%BC%E3%83%89%E5%A4%A7%E4%BC%9A%E3%80%8D%E3%81%AB" text="リンク" >}})| ロボット操縦体験会開催 |
+| 2023 | RoboCupJunior2022埼玉ブロック大会 | サッカー審判 |
+|      | RoboCupJunior2022関東ブロック大会 | サッカー審判 |
 
 
 
@@ -66,7 +74,7 @@ description : ""
 ### 2018年 
 <!-- 中学入学と同時に科学部に入り、ロボットと出会う。RCJオンステージの日本リーグに向けて、パフォーマンスロボットを製作。
 
-はじめは、動画編集からはじめ、機体製作、回路製作を始めていった。 -->」
+はじめは、動画編集からはじめ、機体製作、回路製作を始めていった。 -->
 ロボットと出会った。
 RCJオンステージ日本リーグに向けて瓦割りパフォーマンスをするロボットを作った。
 {{< figure src="./1.JPG" alt="OnStage" width=400 >}}
