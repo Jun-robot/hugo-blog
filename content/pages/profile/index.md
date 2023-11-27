@@ -49,9 +49,15 @@ description : ""
 |      | Nestロボコン2022 サッカーLightweight ({{< exlink href="https://www.npo-nest.org/workshop/robocon/robocon2022_rank.html" text="リンク" >}})| 優勝&得点王 |
 |      | 技育展2022 ハード/組み込み部門({{< exlink href="https://talent.supporterz.jp/geekten/2022/exhibition.html#theme7" text="リンク" >}})| 参加賞 |
 |      | サイエンスキャッスル関東大会口頭発表({{< exlink href="https://s-castle.com/news/17246/" text="リンク" >}})| 優秀賞 |
-| 2023 | RoboCupJunior 2022 JapanOpen サッカーOpen(Cranes)({{< exlink href="https://www.robocupjunior.jp/2023nagoya_results.html" text="リンク" >}})| 優秀プレゼンテーション賞 |
-|      | MakersUniversity U18 8期生({{< exlink href="https://u-18.makers-u.jp/" text="リンク" >}})|  |
-|      | 情報科学の達人 4期生({{< exlink href="https://www.nii.ac.jp/tatsujin/" text="リンク" >}})|  |
+| 2023 | RoboCupJunior 2023 JapanOpen サッカーOpen(Cranes)({{< exlink href="https://www.robocupjunior.jp/2023nagoya_results.html" text="リンク" >}})| 優秀プレゼンテーション賞 |
+|      | MakersUniversity U18 8期生({{< exlink href="https://u-18.makers-u.jp/" text="リンク" >}})| 採択 |
+|      | 情報科学の達人 4期生({{< exlink href="https://www.nii.ac.jp/tatsujin/" text="リンク" >}})| 採択 |
+|      | 未踏ジュニア2023({{< exlink href="https://jr.mitou.org/projects/2023/3d_printed_brushless_motor" text="リンク" >}})| 採択 |
+|      | サイエンスキャッスルTHK賞({{< exlink href="https://s-castle.com/%E6%9C%AA%E5%88%86%E9%A1%9E/21138/" text="リンク" >}})(燈)| 採択 |
+|      | MakersU18 佐俣アンリ奨学金 | 奨学生 |
+|      | MakersU18 TOKYO<β>奨学金({{< exlink href="https://note.com/tokyo_beta/n/nfd38bc86584b#:~:text=%E3%80%8CMovingDisplay%20/%20%E4%BB%AE%E6%83%B3%E4%B8%96%E7%95%8C%E3%81%B8%E7%B9%8B%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%9E%E3%81%8D%E7%AA%93%E3%80%8D%E3%82%92%E6%8F%90%E6%A1%88%E3%81%97%E3%81%9F%E9%BD%8B%E8%97%A4%E6%B7%B3%E5%B9%B3%E3%81%95%E3%82%93" text="リンク" >}}) | 奨学生 |
+|      | 技育展2023 関東①ブロック | ブロック通過 |
+|      | 技育展2023 決勝大会 | 予選敗退 |
 
      
 ## 参加したイベントなどなど
@@ -60,18 +66,14 @@ description : ""
 | 2022 | RoboCupJunior岐阜ブロック交流会 | 登壇 & 参加 |
 |      | RoboCupJuniorさいたまブロック交流会 | 参加 |
 |      | プレゼンテーションデー@千葉工大({{< exlink href="https://twitter.com/jun_robot/status/1589185900780879872" text="リンク" >}}) | 登壇 |
-|      | SFC OpenResearchForum({{< exlink href="https://twitter.com/jun_robot/status/1594261669030469632" text="リンク" >}}) |  |
 |      | RoboCupJunior2022千葉ノード大会 | オンステージ進行スタッフ |
-|      | 山中研究室最終展示「未来の原画」展({{< exlink href="https://twitter.com/jun_robot/status/1598271272097484800" text="リンク" >}}) |  |
 |      | RoboCupJunior2022南埼玉ノード大会 | サッカー審判 |
 |      | RoboCupJunior2022北埼玉ノード大会 | サッカー審判 |
 |      | zunŌwクリスマス発表会({{< exlink href="https://fn-zunow.com/blog/event/p4051/#:~:text=%E5%85%88%E6%97%A5%E5%87%BA%E5%A0%B4%E3%81%97%E3%81%9F%E3%80%8C%E3%83%AD%E3%83%9C%E3%82%AB%E3%83%83%E3%83%97%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E5%8D%83%E8%91%89%E3%83%8E%E3%83%BC%E3%83%89%E5%A4%A7%E4%BC%9A%E3%80%8D%E3%81%AB" text="リンク" >}})| ロボット操縦体験会開催 |
 | 2023 | RoboCupJunior2022埼玉ブロック大会 | サッカー審判 |
 |      | RoboCupJunior2022関東ブロック大会 | サッカー審判 |
-|      | メディア芸術祭({{< exlink href="https://twitter.com/jun_robot/status/1624684792607551488/" text="リンク" >}}) |  |
-|      | 超異分野学会東京大会2023({{< exlink href="https://twitter.com/jun_robot/status/1631614629628743682" text="リンク" >}}) |  |
 
-
+|      | MakerFaireTokyo2023(未踏ジュニアブース) | 出展 |
 
 
 ## 経歴
