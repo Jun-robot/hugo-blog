@@ -84,9 +84,18 @@ description : ""
 | 10月 | RoboCupJuniorさいたまブロック ルール説明会| 参加 |
 |      | MakerFaireTokyo2023(未踏ジュニアブース) | 出展 |
 | 11月 | 未踏ジュニア 成果報告会({{< exlink href="https://www.youtube.com/watch?v=R07GRnyqM" text="動画" >}}) | 登壇 |
+| 12月 | サイエンスキャッスル2023 口頭発表・ポスター発表 | 優秀賞 |
+|      | THKものづくり0.賞 成果報告会 | 優秀賞 |
 
-
-https://www.youtube.com/watch?v=R07GRnyqM
+## メディア掲載
+| 年   | タイトル | 媒体 | リンク |
+|------|-----------|---------|------|
+| 2023年|           |         |      |
+| 1月  | 異能日記・誰もがロボット作れる世界に | 朝日中高生新聞 | {{< exlink href="https://masason-foundation.org/2023/01/30/122431/" text="参考" >}} |
+| 4月  | 自作ロボット開発を通して、ものづくりの楽しさを伝える高校生エンジニア | Steenz | {{< exlink href="https://steenz.jp/10740/" text="参考" >}} |
+| 12月 | ロボットと人間を対等に！齋藤淳平さん独占インタビュー | LARVA06 | {{< exlink href="https://larva06.com/2023/11/saito-junpei-interview" text="参考" >}} |
+| 12月 |           | MakersU18 |      |
+| 12月 |           | Tokyo＜β＞ Note|      |
 
 ## 経歴
 ### 2018年 
