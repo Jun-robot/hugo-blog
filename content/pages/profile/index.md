@@ -29,7 +29,43 @@ description : ""
 - Python
 - HTML(言語なのか??)
 - CSS(上に同じ) -->
-  
+
+
+## これまでのロボコン歴
+#### Forest
+- RCJオンステージ日本リーグ
+  - ジャパンオープン2019優勝
+- RCJオンステージ世界リーグ
+  - 関東ブロック2020優勝
+- 参考
+  - {{< exlink href="https://rcj-lightweight.hateblo.jp/entry/self-introduction" text="作ってたロボット" >}}
+
+#### All_outlook
+- RCJサッカーライトウェイト
+  - アジアパシフィック2021 11位
+  - ジャパンオープン2022 13位
+- 参考
+  - {{< exlink href="https://all-outlook.github.io/" text="ホームページ" >}}
+  - {{< exlink href="https://twitter.com/All_outlook" text="Twitter" >}}
+
+#### Cranes
+- RCJサッカーオープン
+  - ジャパンオープン2023 プレゼンテーション賞
+- 参考
+  - {{< exlink href="https://twitter.com/grapes_zero/status/1640713147924504578" text="ポスター" >}}
+
+#### 燈ーTomoshibiTechnologyー
+- RCJオンステージ世界リーグ
+  - ジャパンオープン2024 出場権獲得
+- 参考
+  - {{< exlink href="https://tomoshibi-tech.com/" text="ホームページ" >}}
+  - {{< exlink href="https://twitter.com/TomoshibiTech" text="Twitter" >}}
+  - {{< exlink href="https://www.youtube.com/@TomoshibiTech" text="Youtube" >}}
+
+
+
+
+
 ## 成果
 | 年   | 大会名 | 結果 |
 |------|----------|---------|
@@ -58,6 +94,10 @@ description : ""
 |      | MakersU18 TOKYO<β>奨学金({{< exlink href="https://note.com/tokyo_beta/n/nfd38bc86584b#:~:text=%E3%80%8CMovingDisplay%20/%20%E4%BB%AE%E6%83%B3%E4%B8%96%E7%95%8C%E3%81%B8%E7%B9%8B%E3%81%8C%E3%82%8B%E3%81%AE%E3%81%9E%E3%81%8D%E7%AA%93%E3%80%8D%E3%82%92%E6%8F%90%E6%A1%88%E3%81%97%E3%81%9F%E9%BD%8B%E8%97%A4%E6%B7%B3%E5%B9%B3%E3%81%95%E3%82%93" text="リンク" >}}) | 奨学生 |
 |      | 技育展2023 関東①ブロック (燈) | ブロック通過 |
 |      | 技育展2023 決勝大会 (燈) | 予選敗退 |
+|      | サイエンスキャッスル2023 口頭発表・ポスター発表({{< exlink href="https://s-castle.com/archive/kanto2023/#:~:text=%E4%BA%BA%E9%96%93%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%92%E7%B9%8B%E3%81%92%E3%82%8B%E6%96%B0%E3%81%9F%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%82%A4%E3%82%B9%E3%81%AE%E9%96%8B%E7%99%BA" text="リンク" >}}) | 優秀賞 |
+|      | THKものづくり0.賞 成果報告会 | 優秀賞 |
+| 2024 | RCJ2024 埼玉ブロック OnStage世界リーグ | 優勝・埼玉県教育長賞 |
+
 
      
 ## 参加したイベントなどなど
@@ -76,6 +116,7 @@ description : ""
 |      | RoboCupJunior2023関東ブロック大会 | サッカー審判 |
 | 3月  | RoboCupJuniorさいたま交流会 | 参加 |
 | 5月  | RoboCupJunior郡上交流会 | 登壇 |
+|      | MakerFaireKyoto2023 | 見学 |
 | 6月  | 未踏ジュニア ブースト合宿| 参加 |
 | 8月  | RoboCupJuniorリツモリ交流会 | 参加 |
 |      | 未踏ジュニア ハードウェア合宿 | 参加 |
@@ -84,8 +125,9 @@ description : ""
 | 10月 | RoboCupJuniorさいたまブロック ルール説明会| 参加 |
 |      | MakerFaireTokyo2023(未踏ジュニアブース) | 出展 |
 | 11月 | 未踏ジュニア 成果報告会({{< exlink href="https://www.youtube.com/watch?v=R07GRnyqM" text="動画" >}}) | 登壇 |
-| 12月 | サイエンスキャッスル2023 口頭発表・ポスター発表 | 優秀賞 |
-|      | THKものづくり0.賞 成果報告会 | 優秀賞 |
+| 2024 |       |    |
+| 1月 | RCJ2024関東ブロック大会 | 見学 |
+
 
 ## メディア掲載
 | 年   | タイトル | 媒体 | リンク |
@@ -94,8 +136,8 @@ description : ""
 | 1月  | 異能日記・誰もがロボット作れる世界に | 朝日中高生新聞 | {{< exlink href="https://masason-foundation.org/2023/01/30/122431/" text="参考" >}} |
 | 4月  | 自作ロボット開発を通して、ものづくりの楽しさを伝える高校生エンジニア | Steenz | {{< exlink href="https://steenz.jp/10740/" text="参考" >}} |
 | 12月 | ロボットと人間を対等に！齋藤淳平さん独占インタビュー | LARVA06 | {{< exlink href="https://larva06.com/2023/11/saito-junpei-interview" text="参考" >}} |
-| 12月 |           | MakersU18 |      |
-| 12月 |           | Tokyo＜β＞ Note|      |
+| 12月 | 計算機と人間が、対等に共存する世界へ。 | MakersU18 | {{< exlink href="https://note.com/makers_u18/n/n5cb10f492740" text="参考" >}} |
+| 12月 | “役立つこと”がすべてじゃない。高校生の挑戦【Z世代の夢応援プロジェクト】 | Tokyo＜β＞ Note| {{< exlink href="https://note.com/tokyo_beta/n/nfea095116a3a" text="参考" >}} |
 
 ## 経歴
 ### 2018年 
